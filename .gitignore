@@ -32,3 +32,5 @@ build/
 tmp/
 temp/
 *.tmp
+
+check_models.js

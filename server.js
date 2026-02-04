@@ -9,6 +9,7 @@ const PORT = 3000;
 // Enable CORS for frontend access
 app.use(cors());
 app.use(express.json());
+app.use(express.static('public'));
 
 app.post('/api/chat', async (req, res) => {
     try {
